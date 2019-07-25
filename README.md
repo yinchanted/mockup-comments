@@ -2,20 +2,23 @@
 
 ## Header:
 :seven:/:two::three:
-- [ ] Noticed that you added "/", but not sure that it makes sense :)
+- [x] Noticed that you added "/", but not sure that it makes sense :)
 - [x] Added space between the header titles and the thin line in the header
 - [x] Noticed that you kept the thin line, which now it makes sense to have it to separate with bread crumbs. (keep)
 
 :seven:/:two::four:
-- [ ] Can we remove the "/"?
-- [ ] Can we change the font for "Developers" to "Courier New" in bold? to give a bit dev feel.
+- [x] Can we remove the "/"?
+- [x] Can we change the font for "Developers" to "Courier New" in bold? to give a bit dev feel.
 
 ## Footer:
 :seven:/:two::three:
 - [x] It looks to me a little busy there.. i suggest that we remove the social media icons as they don’t apply directly to “developer portal” anyway.
 
 :seven:/:two::four:
-- [ ] Can we work on the spacing of the items? Why is the font size of privacy and t&c so much smaller?
+- [x] Can we work on the spacing of the items? Why is the font size of privacy and t&c so much smaller?
+
+:seven:/:two::five:
+- [x] like the spacing and visually separate the contents!
 
 ## Home:
 :seven:/:two::three:
@@ -33,12 +36,23 @@
 - [x] need more discussion..
 
 :seven:/:two::four:
-- [ ] recommand a different style for "news/latest updates" section, see elasticsearch [breaking changes](https://www.elastic.co/guide/en/beats/libbeat/7.2/breaking-changes.html) and [release note](https://www.elastic.co/guide/en/beats/libbeat/7.2/release-notes-7.2.1.html)
+- [x] recommend a different style for "news/latest updates" section, see elasticsearch [breaking changes](https://www.elastic.co/guide/en/beats/libbeat/7.2/breaking-changes.html) and [release note](https://www.elastic.co/guide/en/beats/libbeat/7.2/release-notes-7.2.1.html)
+
+:seven:/:two::five:
+- [ ] like the style for "Latest updates". Are you planning to add more content to this section? If not, can we make the box shorter?
+
+:octocat: "Add to my app", let's leave the button there for now but only if the user is logged in.
 
 ## Documentation:
 :seven:/:two::three:
-- [ ] search within documentation page, do we need another search?
+- [x] search within documentation page, do we need another search?
 - [x] Messaging overview will not have "Download OpenAPI specification" link as it will be in each individual API documentation page
+
+:seven:/:two::five:
+- [x] left panel navigation sections look good
+- [ ] Can we add vertical scroll bar for left panel navigation
+
+:octocat: the ideal is to make documentation 1 single page (for the right section). Left panel navigation would be sectioned and have a vertical scroll bar. I don't quiet understand your question here.. let's talk about this over the call?
 
 ## Support:
 :seven:/:two::three:
@@ -51,17 +65,25 @@
 ## Sign In:
 :seven:/:two::three:
 - [x] looks good
+- [ ] can we remove links in the header?
 
 :seven:/:two::four:
-- [ ] i think it looks cleaner to leave out "Get quick access to your..."
-- [ ] can you create wireframe for "forget my password" page?
+- [x] i think it looks cleaner to leave out "Get quick access to your..."
+- [x] can you create wireframe for "forget my password" page?
+
+## Forgot password:
+:seven:/:two::five:
+- [x] looks good for success which redirects to Sign in page, and error when email not found
 
 ## Create account:
 :seven:/:two::three:
 - [x] Can we move "Are you a swift.com user?"" to the top of the box right below "Create account"?
 
-:seven:/:two::three:
+:seven:/:two::four:
 - [x] looks good
+
+:seven:/:two::five:
+- [ ] i like the field check for "gmail" etc, can we also check for "swift.com"? and prompt them to directly sign in?
 
 ## My Apps:
 :seven:/:two::three:
@@ -72,12 +94,19 @@
 - [x] "Redirect URIs" looks good to me
 
 :seven:/:two::four:
-- [ ] Can you provide the look and feel for when one URI is added?
+- [x] Can you provide the look and feel for when one URI is added?
+
+:seven:/:two::five:
+
+:octocat: multiple URI looking good!
 
 ## GPI test app:
 :seven:/:two::three:
 - [x] Ready to go live? (i like this), but instead of "Register your app at swift.com", it's better to say "Contact your account manager" (need to think on that)
 - [x] Can you also provide the look and feel when the app is in "Live" status?
+
+:seven:/:two::five:
+- [ ] Can you provide multiple URIs in the app info section?
 
 ## Color:
 :seven:/:two::three:
@@ -88,4 +117,18 @@
 
 ## Getting started guides:
 :seven:/:two::four:
-- [ ] Can you provide the look and feel of a simple page for [this page](https://developer.swift.com/getting-started-pre-validation-platform-sdk-pilot)?
+- [x] Can you provide the look and feel of a simple page for [this page](https://developer.swift.com/getting-started-pre-validation-platform-sdk-pilot)?
+
+:seven:/:two::five:
+
+:octocat: looks good to me in term of the layout of the page. The content on this "getting started guide" will slip between "Sandbox" section (where we explain the URL and how to get access to sandbox) and "Overview" section (where postman collection goes here) on the documentation page. This is more of a note for myself, I don't see any additional design work needed here.
+
+## Release notes:
+:seven:/:two::five:
+- [ ] Let's first rename "Release versioning" or "Release notes" to "New features and bug fixes" since the content will go on each version of the API.
+
+:boom::boom: It makes me wonder how can we make all the information in one page but having a  "version" dropdown on the tracker documentation page?
+
+## Logo:
+:seven:/:two::five:
+- [ ] still in evaluation :)
