@@ -10,6 +10,9 @@
 - [x] Can we remove the "/"?
 - [x] Can we change the font for "Developers" to "Courier New" in bold? to give a bit dev feel.
 
+:seven:/:two::nine:
+- [ ] update the title from "Documentation" to "Reference"
+
 ## Footer:
 :seven:/:two::three:
 - [x] It looks to me a little busy there.. i suggest that we remove the social media icons as they don’t apply directly to “developer portal” anyway.
@@ -44,7 +47,10 @@
 :octocat: "Add to my app", let's leave the button there for now but only if the user is logged in.
 
 :seven:/:two::six:
-- [ ] is there a way to make "View Documentation" closer to the content? It appears to be on the side and can be missed..
+- [x] is there a way to make "View Documentation" closer to the content? It appears to be on the side and can be missed..
+
+:seven:/:two::nine:
+- [ ] "API Documentation" in a box works for now. However can we call it "Developer Reference" and replace in all places where we refer to "Documentation"?
 
 ## Documentation:
 :seven:/:two::three:
@@ -59,6 +65,16 @@
 
 :seven:/:two::six:
 - [x] looks good for the Tracker API v3 Overview + Change Log page, where it's not one single page from top to bottom. I don't think we have to make it one page, what's the real benefit of doing that actually?
+
+:seven:/:two::nine:
+- [ ] on the left navigation menu, can you add "Versions" below "Authentication"?
+- [ ] on the left navigation menu, when "Sandbox" is clicked on, it is changed to "Messaging API"
+- [ ] on the left navigation menu, change "Messaging API" to "Messaging", "Compliance API" to "Compliance"
+- [ ] on the left navigation menu, change "SWIFT Sandbox" to "Overview", it will have a small paragraph there. So under "Sandbox", there will be "Overview" and "Getting started"
+- [ ] on the left navigation menu, change "gpi for Corporates" to "Tracker g4c API"
+- [ ] can we make the header static (not disappearing) when we scroll down?
+- [ ] on the left navigation menu, "Documentation" is really needed? Or replace it with the bread crumbs? I think it's better to show only one of the two.
+- [ ] update the title from "Documentation" to "Reference"
 
 ## Support:
 :seven:/:two::three:
@@ -76,6 +92,9 @@
 :seven:/:two::four:
 - [x] i think it looks cleaner to leave out "Get quick access to your..."
 - [x] can you create wireframe for "forget my password" page?
+
+:seven:/:two::nine:
+- [ ] can we update the "Sign in" button link on the landing page to point to the right Sign in page? I believe it's pointing to swift.com login at the moment.
 
 ## Forgot password:
 :seven:/:two::five:
@@ -121,6 +140,10 @@
 :seven:/:two::four:
 - [x] Can you put these swap the "burn orange" with these two colors for the "Support" page and "GPI test app" page?
 
+:seven:/:two::nine:
+- [ ] if time permits, can you update the Sign in page with the two colors?
+- [ ] if time permits, can you update the "Contact Us" button color to match with the "rose pink" and "terragon green"? i suppose use a lighter version of these two color?
+
 ## Getting started guides:
 :seven:/:two::four:
 - [x] Can you provide the look and feel of a simple page for [this page](https://developer.swift.com/getting-started-pre-validation-platform-sdk-pilot)?
@@ -147,4 +170,4 @@
 
 ## Tracker V3 reference:
 :seven:/:two::six:
-- [ ] I want to propose some small changes, let's talk on the call, much easier that way :)
+- [x] I want to propose some small changes, let's talk on the call, much easier that way :)
